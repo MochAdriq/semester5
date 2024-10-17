@@ -61,7 +61,6 @@ plt.title("Histogram Grayscale")
 plt.subplot(3,2,5)
 plt.hist(grayscale_weighted.ravel(), bins=256, range=[0, 256], color='black')
 plt.title('Histogram Intensitas')
-plt.xlabel('Intensitas')
 plt.ylabel('Frekuensi')
 
 plt.tight_layout()
