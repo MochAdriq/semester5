@@ -16,8 +16,8 @@ def Translasi(image, shiftX, shifty):
         imgTranslasi[:, shiftX:] = 0 # Bagian kanan jika geser ke kiri
     return imgTranslasi
 
-image = img.imread("rgb.jpeg")
-imgResult = Translasi(image, shiftX=50, shifty=-300)
+image = img.imread("PCD\sesi5dan6\pensil.jpeg")
+imgResult = Translasi(image, shiftX=50, shifty=-50)
 
 plt.figure(figsize=(10,10))
 plt.subplot(2,1,1)

@@ -1,7 +1,8 @@
 import numpy as np
 import imageio as img
 import matplotlib.pyplot as plt
-path = 'rgb.jpeg'
+
+path = 'PCD\sesi5dan6\pensil.jpeg'
 image = img.imread(path)
 height, width = image.shape[:2]
 horizontal = np.zeros_like(image)

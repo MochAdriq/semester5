@@ -17,7 +17,7 @@ def rotateImage(image, degree):
         outputImage[newY, newX] = image[y + height//2, x + width//2]
   return outputImage
 
-image = img.imread('rgb.jpeg')
+image = img.imread('PCD\sesi5dan6\pensil.jpeg')
 rotated_image = rotateImage(image, 45)
 
 plt.subplot(1, 2, 1)
