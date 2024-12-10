@@ -67,5 +67,3 @@ robertY = [[ 0,  1],
 - Gunakan **Robert** untuk aplikasi yang membutuhkan hasil cepat atau bekerja dengan keterbatasan sumber daya.
 
 ---
-
-Silakan unggah file ini ke repository Anda dengan menyesuaikan path gambar jika ingin menambahkan hasil plot ke dalam folder `images`. Jika ada yang perlu diperbaiki, beri tahu saya!
